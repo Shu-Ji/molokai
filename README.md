@@ -14,7 +14,7 @@ By default, it has a dark gray background based on the version created by Hamish
 
 Copy the file on your .vim/colors folder.
 
-If you prefer the scheme to match the original monokai background color, put this in your .vimrc file: 
+If you prefer the scheme to match the original monokai background color, put this in your .vimrc file:
     let g:molokai_original = 1
 
 There is also an alternative sheme under development for color terminals which attempts to bring the 256 color version as close as possible to the the default (dark) GUI version. To access, add this to your .vimrc:
@@ -22,3 +22,8 @@ There is also an alternative sheme under development for color terminals which a
 
 Note: when using the console version, add this command after enabling the colorscheme in your .vimrc:
     set background=dark
+
+`2013-07-13 11:36:16`
+
+    修改了主题在第79列处的背景色
+    修改了visual模式下选中文字的背景色
