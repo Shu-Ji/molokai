@@ -1,10 +1,10 @@
-  
+
 " Vim color file
 "
 " Author: Tomas Restrepo <tomas@winterdom.com>
 "
 " Note: Based on the monokai theme for textmate
-" by Wimer Hazenberg and its darker variant 
+" by Wimer Hazenberg and its darker variant
 " by Hamish Stuart Macpherson
 "
 
@@ -196,10 +196,10 @@ if &t_Co > 255
    hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
-   hi Special         ctermfg=81 
+   hi Special         ctermfg=81
    if has("spell")
-       hi SpellBad                ctermbg=52   
-       hi SpellCap                ctermbg=17   
+       hi SpellBad                ctermbg=52
+       hi SpellCap                ctermbg=17
        hi SpellLocal              ctermbg=17
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
    endif
@@ -218,18 +218,18 @@ if &t_Co > 255
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=235
+   hi Visual                      ctermbg=100
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=234
-   hi ColorColumn                 ctermbg=234
+   hi ColorColumn                 ctermbg=236
    hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
-   
+
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
@@ -256,7 +256,7 @@ if &t_Co > 255
        hi PreCondit       ctermfg=154               cterm=bold
        hi PreProc         ctermfg=154
        hi Repeat          ctermfg=197               cterm=bold
-       
+
        hi Statement       ctermfg=197               cterm=bold
        hi Tag             ctermfg=197
        hi Title           ctermfg=203
